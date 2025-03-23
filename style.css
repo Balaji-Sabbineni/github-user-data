@@ -1,0 +1,47 @@
+#parent,  h1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#pic {
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    #card {
+        margin-left: 1%;
+        margin-right: 1%;
+
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #card {
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
